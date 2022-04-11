@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+    height: 160px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+  h5{background-color: rgba(0, 0, 0, 0.349);font-size: medium;}
+  h6{background-color: rgba(0, 0, 0, 0.349);font-size: medium;}
+  p{background-color: rgba(0, 0, 0, 0.349);font-size: medium;font-weight: 800;}
+  .button1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .button2 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .button3 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  body{margin: 0;
+padding: 0;
+font-family: 'Raleway', sans-serif;
+background: url("services.jpg");
+    background-position: center;
+}
+header{
+text-align: center;}
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+header nav a {color:white;
+text-decoration: none;
+margin-right: 10px;
+}
+header.principal{
+    margin-top:40px ;
+}
+header nav a:hover{color: white;
+border-bottom: 1px solid black;}
+section{padding: 20px;}
+i{padding: 20px;}
+iframe{padding: 11px;
+text-align: center;
+}
+h4{font-weight: 800;padding:20px;}
+h3{font-weight: 800;font-size: medium;padding: 20px;}
+h2{font-weight: 800;
+font-size: medium;}
+.ongles a{text-decoration: none;
+color: black;font-size: medium;position: relative;
+bottom: -300px;
+justify-content:space-between;}
+.fa-battery-full{padding: 4px;}
